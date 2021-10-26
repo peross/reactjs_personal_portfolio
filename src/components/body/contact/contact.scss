@@ -1,0 +1,54 @@
+@import "../../../global";
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  .section-title{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  &-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.6rem 0;
+
+    @include tablet{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .contact-left-side{
+      max-width: 60%;
+      font-size: 2rem;
+      text-align: center;
+
+      @include tablet{
+        max-width: 100%;
+      }
+    }
+
+    .contact-right-side{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #B7CCFF;
+      border-radius: .4rem;
+      padding: .8rem 1.6rem;
+      font-size: 2.4rem;
+
+      @include tablet{
+        font-size: 1.6rem;
+      }
+
+      a{
+        color: $black;
+      }
+    }
+  }
+}

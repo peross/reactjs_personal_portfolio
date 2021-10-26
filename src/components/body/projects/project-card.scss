@@ -1,0 +1,88 @@
+@import "../../../global";
+
+.project-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin: 1.6rem 0;
+  padding: .8rem 0;
+
+  @include tablet{
+    flex-direction: column-reverse;
+  }
+
+  .project-info{
+    margin-right: 2.5rem;
+
+    @include tablet{
+      margin-left: 0;
+      margin-top: 1.2rem;
+      margin-right: 1rem;
+    }
+
+    .project-title{
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    .project-links{
+      display: flex;
+      margin: .6rem 0;
+
+      .project-link{
+        color: $black;
+
+        .link-btn{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #6FDA44;
+          width: max-content;
+          padding: .4rem .8rem;
+          border-radius: .4rem;
+          font-size: 1.6rem;
+          margin-right: .6rem;
+
+          i{
+            display: flex;
+            align-items: center;
+            margin-right: .3rem;
+          }
+        }
+      }
+    }
+
+    .project-tags{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 60%;
+
+      @include tablet{
+        max-width: 100%;
+      }
+
+      .tag{
+        padding: .4rem .8rem;
+        background-color: #B7CCFF;
+        border-radius: .4rem;
+        margin-right: .6rem;
+        margin-bottom: .4rem;
+        margin-top: .4rem;
+        cursor: context-menu;
+      }
+    }
+  }
+
+  .project-photo{
+    width: 70%;
+
+    @include laptop{
+      width: 50%;
+    }
+
+    @include tablet{
+      width: 90%;
+    }
+  }
+}

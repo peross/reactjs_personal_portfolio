@@ -1,0 +1,33 @@
+@import '../../../global';
+
+.web{
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+  .nav{
+    display: flex;
+
+    &-item{
+
+      &-link{
+        font-size: 2rem;
+        margin-right: 1.6rem;
+        font-weight: 700;
+        color: $black;
+        display: flex;
+        align-items: center;
+
+        &:hover{
+          color: $blue;
+        }
+
+        i{
+          display: flex;
+          align-items: center;
+          margin-right: .4rem;
+        }
+      }
+    }
+  }
+}

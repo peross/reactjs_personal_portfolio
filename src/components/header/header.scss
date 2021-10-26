@@ -1,0 +1,42 @@
+@import "../../global";
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding: 1.2rem;
+  position: relative;
+
+  .logo{
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu{
+    display: flex;
+    flex: 1; //popuni sav prazan prostor
+    justify-content: flex-end;
+
+    &-web{
+      display: flex;
+
+      @include tablet{
+        display: none;
+      }
+    }
+
+    &-mobile{
+      display: none;
+
+      @include tablet{
+        display: flex;
+      }
+
+      .menu-icon{
+        font-size: 2.4rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

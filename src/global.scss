@@ -1,0 +1,29 @@
+//Colors
+$black: #111;
+$white: #fff;
+$blue: #0D55FF;
+
+//Screen size
+@mixin large{
+  @media screen and (max-width: 1920px){
+    @content;
+  }
+}
+
+@mixin laptop{
+  @media screen and (max-width: 1024px){
+    @content;
+  }
+}
+
+@mixin tablet{
+  @media screen and (max-width: 768px){
+    @content;
+  }
+}
+
+@mixin small{
+  @media screen and (max-width: 300px){
+    @content;
+  }
+}

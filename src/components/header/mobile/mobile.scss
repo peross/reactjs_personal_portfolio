@@ -1,0 +1,53 @@
+@import "../../../global";
+
+.mobile{
+  position: absolute;
+  right: 0;
+  top: -.2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  height: 100vh;
+  width: 60vw;
+  padding: 1.8rem 1.2rem;
+
+  .close-icon{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+
+  &-menu{
+    height: 100vh;
+    .nav{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+
+      &-item{
+        margin: 1.2rem 0;
+
+        &-link{
+          font-size: 2.4rem;
+          display: flex;
+          align-items: center;
+          color: $black;
+
+          &:hover{
+            color: $blue;
+          }
+
+          i{
+            display: flex;
+            align-items: center;
+            margin-right: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

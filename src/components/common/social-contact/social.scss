@@ -1,0 +1,23 @@
+@import '../../../global';
+
+.social-contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .social-icon-div{
+    padding: .6rem;
+    cursor: pointer;
+    margin: .6rem;
+
+    .social-icon{
+      width: 50px;
+      height: 50px;
+
+      @include tablet{
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
