@@ -15,10 +15,10 @@ function Web(){
                         <i className="fi-rr-laptop nav-icon"/>Skills
                     </a>
                 </li>
-                <li><a href="#work"  className="nav-item-link">
-                    <i className="fi-rr-briefcase nav-icon"/>Work
-                </a>
-                </li>
+                {/*<li><a href="#work"  className="nav-item-link">*/}
+                {/*    <i className="fi-rr-briefcase nav-icon"/>Work*/}
+                {/*</a>*/}
+                {/*</li>*/}
                 <li>
                     <a href="#contact"  className="nav-item-link">
                         <i className="fi-rr-user nav-icon"/>Contact

@@ -4,8 +4,8 @@ export const projectData = [
         title: "sad",
         about: "This is a random project This is a random project This is a random project This is a random project This is a random project This is a random project This is a random project ",
         tags: ["ReactJS","HTML", "CSS","Sass","JavaScript"],
-        demo: "www.google.com",
-        github: "www.google.com",
+        demo: "https://www.google.com",
+        github: "https://www.google.com",
         image: require('../assets/project.webp').default,
     },
     {
@@ -13,8 +13,8 @@ export const projectData = [
         title: "das",
         about: "This is a random project This is a random project This is a random project This is a random project This is a random project This is a random project This is a random project ",
         tags: ["ReactJS","HTML", "CSS","Sass","JavaScript"],
-        demo: "www.google.com",
-        github: "www.google.com",
+        demo: "https://www.google.com",
+        github: "https://www.google.com",
         image: require('../assets/project.webp').default,
     },
 ];

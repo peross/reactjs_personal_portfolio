@@ -10,7 +10,7 @@ function Header(){
 
     return(
         <div className="header">
-            <img src={logo} alt="_blank" className="logo"/>
+            <a href="#hero"><img src={logo} alt="_blank" className="logo"/></a>
             <div className="menu">
                 <div className="menu-web">
                     <Web/>
