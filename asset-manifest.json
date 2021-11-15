@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactjs_personal_portfolio/static/css/main.5012a4e8.chunk.css",
-    "main.js": "/reactjs_personal_portfolio/static/js/main.21808580.chunk.js",
-    "main.js.map": "/reactjs_personal_portfolio/static/js/main.21808580.chunk.js.map",
+    "main.js": "/reactjs_personal_portfolio/static/js/main.c3058822.chunk.js",
+    "main.js.map": "/reactjs_personal_portfolio/static/js/main.c3058822.chunk.js.map",
     "runtime-main.js": "/reactjs_personal_portfolio/static/js/runtime-main.03065b1b.js",
     "runtime-main.js.map": "/reactjs_personal_portfolio/static/js/runtime-main.03065b1b.js.map",
     "static/js/2.0c92ad34.chunk.js": "/reactjs_personal_portfolio/static/js/2.0c92ad34.chunk.js",
@@ -19,13 +19,12 @@
     "static/media/prochrom.png": "/reactjs_personal_portfolio/static/media/prochrom.19dc201b.png",
     "static/media/resume.pdf": "/reactjs_personal_portfolio/static/media/resume.7eb3b463.pdf",
     "static/media/sik.png": "/reactjs_personal_portfolio/static/media/sik.f62ee2ea.png",
-    "static/media/sunny.png": "/reactjs_personal_portfolio/static/media/sunny.fae142d7.png",
-    "static/media/upwork.svg": "/reactjs_personal_portfolio/static/media/upwork.f39a6993.svg"
+    "static/media/sunny.png": "/reactjs_personal_portfolio/static/media/sunny.fae142d7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.03065b1b.js",
     "static/js/2.0c92ad34.chunk.js",
     "static/css/main.5012a4e8.chunk.css",
-    "static/js/main.21808580.chunk.js"
+    "static/js/main.c3058822.chunk.js"
   ]
 }
