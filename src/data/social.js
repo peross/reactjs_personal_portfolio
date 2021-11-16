@@ -6,12 +6,7 @@ export const socialData = [
     },
     {
         platform: "linkedin",
-        link: "https://www.linkedin.com",
+        link: "https://www.linkedin.com/in/pero-soldat-557779176/",
         icon: require('../assets/linkedin.svg').default,
-    },
-    {
-        platform: "upwork",
-        link: "https://www.upwork.com",
-        icon: require('../assets/upwork.svg').default,
     },
 ];

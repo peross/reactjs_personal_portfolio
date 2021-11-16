@@ -1,8 +1,23 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
 import './hero.scss'
 import Social from "../../common/social-contact";
 
 function Hero(){
+
+    const [quote, setQuote] = useState('');
+    const getQuote = () =>{
+        fetch("https://raw.githubusercontent.com/skolakoda/programming-quotes-api/master/Api/Data/quotes.json")
+            .then(res => res.json())
+            .then(data => {
+                let randomQuote = Math.floor(Math.random() * data.length);
+                setQuote(data[randomQuote]);
+            });
+    }
+
+    useEffect(() => {
+        getQuote();
+    },[]);
+
     return(
         <div className="hero">
             <div className="hero-top">
@@ -16,6 +31,10 @@ function Hero(){
                 </div>
             </div>
             <Social/>
+            <div className="quotes">
+                <p className="quote">{quote.en}</p>
+                <p className="author">{quote.author}</p>
+            </div>
         </div>
     )
 }

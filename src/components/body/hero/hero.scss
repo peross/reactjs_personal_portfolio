@@ -48,4 +48,17 @@
       }
     }
   }
+
+  .quotes{
+    text-align: center;
+
+    .quote{
+      margin-bottom: .5rem;
+    }
+
+    .author{
+      font-style: italic;
+      font-weight: bold;
+    }
+  }
 }

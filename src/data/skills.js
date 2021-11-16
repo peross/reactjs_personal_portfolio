@@ -35,10 +35,6 @@ export const skillsData = [
                 name: "C#",
                 icon: <i class="devicon-csharp-plain colored"/>,
             },
-            {
-                name: "NodeJS",
-                icon: <i class="devicon-nodejs-plain colored"/>,
-            }
         ]
     }
 ];

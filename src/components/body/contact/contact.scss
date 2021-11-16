@@ -28,6 +28,11 @@
       font-size: 2rem;
       text-align: center;
 
+      .email{
+        font-weight: bold;
+        padding: 1rem;
+      }
+
       @include tablet{
         max-width: 100%;
       }
