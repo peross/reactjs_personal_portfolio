@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactjs_personal_portfolio/static/css/main.ff2a1e5d.chunk.css",
-    "main.js": "/reactjs_personal_portfolio/static/js/main.1f9be4d5.chunk.js",
-    "main.js.map": "/reactjs_personal_portfolio/static/js/main.1f9be4d5.chunk.js.map",
+    "main.js": "/reactjs_personal_portfolio/static/js/main.dcba226a.chunk.js",
+    "main.js.map": "/reactjs_personal_portfolio/static/js/main.dcba226a.chunk.js.map",
     "runtime-main.js": "/reactjs_personal_portfolio/static/js/runtime-main.03065b1b.js",
     "runtime-main.js.map": "/reactjs_personal_portfolio/static/js/runtime-main.03065b1b.js.map",
     "static/js/2.d550968a.chunk.js": "/reactjs_personal_portfolio/static/js/2.d550968a.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/portfolio.png": "/reactjs_personal_portfolio/static/media/portfolio.1da2fb9e.png",
     "static/media/pos.png": "/reactjs_personal_portfolio/static/media/pos.4fadad90.png",
     "static/media/prochrom.png": "/reactjs_personal_portfolio/static/media/prochrom.e1160d18.png",
-    "static/media/resume.pdf": "/reactjs_personal_portfolio/static/media/resume.07910eb3.pdf",
+    "static/media/resume.pdf": "/reactjs_personal_portfolio/static/media/resume.f28e0a77.pdf",
     "static/media/sik.png": "/reactjs_personal_portfolio/static/media/sik.f8777e27.png",
     "static/media/travel.png": "/reactjs_personal_portfolio/static/media/travel.cc8b93b2.png"
   },
@@ -25,6 +25,6 @@
     "static/js/runtime-main.03065b1b.js",
     "static/js/2.d550968a.chunk.js",
     "static/css/main.ff2a1e5d.chunk.css",
-    "static/js/main.1f9be4d5.chunk.js"
+    "static/js/main.dcba226a.chunk.js"
   ]
 }
