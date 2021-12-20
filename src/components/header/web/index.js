@@ -7,12 +7,12 @@ function Web(){
             <ul className="nav">
                 <li className="nav-item">
                     <a href="#projects" className="nav-item-link">
-                        <i className="fi-rr-edit-alt nav-icon"/>Projects
+                        <img className="menu-icon" src={require("../../../assets/edit.svg").default} alt="_blank"/>Projects
                     </a>
                 </li>
                 <li>
                     <a href="#skills"  className="nav-item-link">
-                        <i className="fi-rr-laptop nav-icon"/>Skills
+                        <img className="menu-icon" src={require("../../../assets/laptop.svg").default} alt="_blank"/>Skills
                     </a>
                 </li>
                 {/*<li><a href="#work"  className="nav-item-link">*/}
@@ -21,7 +21,7 @@ function Web(){
                 {/*</li>*/}
                 <li>
                     <a href="#contact"  className="nav-item-link">
-                        <i className="fi-rr-user nav-icon"/>Contact
+                        <img className="menu-icon" src={require("../../../assets/user.svg").default} alt="_blank"/>Contact
                     </a>
                 </li>
             </ul>

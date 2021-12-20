@@ -8,19 +8,19 @@ function Mobile({isOpen, setIsOpen}){
     return(
         <div className="mobile">
             <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
-                <i className="fi-rr-cross-circle"/>
+                <img className="menu-icon" src={require("../../../assets/apps.svg").default} alt="_blank"/>
             </div>
 
             <div className="mobile-menu">
                 <ul className="nav">
                     <li className="nav-item">
                         <a href="#projects" className="nav-item-link" onClick={toggle}>
-                            <i className="fi-rr-edit-alt nav-icon"/>Projects
+                            <img className="menu-icon" src={require("../../../assets/edit.svg").default} alt="_blank"/>Projects
                         </a>
                     </li>
                     <li className="nav-item">
                         <a href="#skills"  className="nav-item-link" onClick={toggle}>
-                            <i className="fi-rr-laptop nav-icon"/>Skills
+                            <img className="menu-icon" src={require("../../../assets/laptop.svg").default} alt="_blank"/>Skills
                         </a>
                     </li>
                     {/*<li className="nav-item">*/}
@@ -30,7 +30,7 @@ function Mobile({isOpen, setIsOpen}){
                     {/*</li>*/}
                     <li className="nav-item">
                         <a href="#contact"  className="nav-item-link" onClick={toggle}>
-                            <i className="fi-rr-user nav-icon"/>Contact
+                            <img className="menu-icon" src={require("../../../assets/user.svg").default} alt="_blank"/>Contact
                         </a>
                     </li>
                 </ul>

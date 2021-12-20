@@ -17,7 +17,7 @@ function Header(){
                 </div>
                 <div className="menu-mobile">
                     <div onClick={() => setIsOpen(!isOpen)}> {/*opposite of isOpen*/}
-                        <i className="fi-rr-apps menu-icon"/>
+                        <img className="menu-icon" src={require("../../assets/apps.svg").default} alt="_blank"/>
                     </div>
                     {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen}/>} {/*only when isOpen true show Mobile*/}
                 </div>

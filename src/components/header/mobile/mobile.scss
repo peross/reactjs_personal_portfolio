@@ -37,6 +37,10 @@
           align-items: center;
           color: $black;
 
+          .menu-icon{
+            width: 20px;
+          }
+
           &:hover{
             color: $blue;
           }

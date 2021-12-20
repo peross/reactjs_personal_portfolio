@@ -8,7 +8,7 @@ function ProjectCard({project}) {
                 <h3 className="project-title">{project.title}</h3>
                 <div className="project-links">
                     {project.demo && (
-                        <a className="project-link" href={project.demo} target="_blank">
+                        <a className="project-link" href={project.demo} target="_blank" rel="noreferrer">
                         <div className="link-btn">
                             <i className="fi fi-rr-globe"/>Demo
                         </div>
@@ -16,7 +16,7 @@ function ProjectCard({project}) {
                     )}
 
                     {project.github && (
-                        <a className="project-link" href={project.github} target="_blank">
+                        <a className="project-link" href={project.github} target="_blank" rel="noreferrer">
                             <div className="link-btn">
                                 <i className="devicon-github-original colored"/>Github
                             </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import './contact.scss';
 import Separator from "../../common/separator";
-import SocialContact from "../../common/social-contact";
 
 function Contact() {
     return(

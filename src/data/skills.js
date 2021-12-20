@@ -35,6 +35,10 @@ export const skillsData = [
                 name: "C#",
                 icon: <i class="devicon-csharp-plain colored"/>,
             },
+            {
+                name: "SQLServer",
+                icon: <i className="devicon-microsoftsqlserver-plain"></i>,
+            },
         ]
     }
 ];
